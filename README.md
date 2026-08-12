@@ -1,9 +1,3 @@
-Here’s the improved README.
-
-Copy everything below this line and replace the current README content with it:
-
----
-
 # OffsetGrid
 
 **Precision Beat.Offset MIDI text format for humans and AI**
