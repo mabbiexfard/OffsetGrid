@@ -1,3 +1,9 @@
+Here’s the improved README.
+
+Copy everything below this line and replace the current README content with it:
+
+---
+
 # OffsetGrid
 
 **Precision Beat.Offset MIDI text format for humans and AI**
@@ -38,15 +44,26 @@ GRID: HIRES
 
 ---
 
-## Status
+## REAPER Scripts
 
-Currently in early public release.
+Two scripts are included:
 
-Coming soon:
-- Official Specification
-- REAPER scripts (Copy MIDI → OffsetGrid / Paste OffsetGrid → MIDI)
-- Python converter
-- Documentation
+- **OffsetGrid_Copy.lua** → Copies selected MIDI notes to OffsetGrid text (puts it in the clipboard)
+- **OffsetGrid_Paste.lua** → Pastes OffsetGrid text from the clipboard into a MIDI item
+
+### How to use the scripts in REAPER
+
+1. Copy the `.lua` files into your REAPER Scripts folder
+2. In REAPER go to **Actions → Show action list → New action → Load ReaScript**
+3. Load both scripts and optionally assign keyboard shortcuts
+
+---
+
+## Files in this repository
+
+- `OffsetGrid_Spec.md` → Official specification
+- `OffsetGrid_Copy.lua` → MIDI to OffsetGrid
+- `OffsetGrid_Paste.lua` → OffsetGrid to MIDI
 
 ---
 
